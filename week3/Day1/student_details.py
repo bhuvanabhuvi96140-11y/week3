@@ -1,0 +1,40 @@
+html_content = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+</head>
+<body>
+    <h1>Student Details Table</h1>
+    <table border="1">
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Rahul</td>
+            <td>10th</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Anjali</td>
+            <td>10th</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Arun</td>
+            <td>10th</td>
+            <td>78</td>
+        </tr>
+    </table>
+</body>
+</html>
+"""
+with open("index.html", "w") as file:
+    file.write(html_content)
+print("index.html file created successfully!")

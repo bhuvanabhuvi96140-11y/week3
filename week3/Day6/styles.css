@@ -1,0 +1,40 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Segoe UI,Arial,Helvetica,sans-serif;background:#f2f4f6;padding:20px}
+.container{max-width:1000px;margin:0 auto}
+h1{text-align:center;color:#0b79d0;margin-bottom:30px}
+.demo-section{background:#fff;padding:20px;margin-bottom:20px;border-radius:8px;box-shadow:0 2px 4px rgba(0,0,0,0.1)}
+.demo-section h2{color:#333;margin-bottom:12px;font-size:1.3rem;border-bottom:2px solid #0b79d0;padding-bottom:8px}
+.demo-section p{color:#666;margin-bottom:12px;line-height:1.6}
+
+/* Alert Demo */
+#alertBtn{background:#0b79d0;color:#fff;padding:10px 20px;border:none;border-radius:4px;cursor:pointer;font-size:1rem;transition:background 0.3s}
+#alertBtn:hover{background:#0956a0}
+
+/* Change Text Demo */
+#changeText{background:#fff3cd;color:#333;padding:15px;border-radius:4px;cursor:pointer;transition:all 0.3s;text-align:center;font-weight:bold;border:2px solid #ffc107}
+#changeText:hover{background:#ffe082;transform:scale(1.05)}
+
+/* Form Validation */
+.form-group{margin-bottom:15px}
+label{display:block;margin-bottom:5px;color:#333;font-weight:bold}
+input[type="text"],input[type="email"],input[type="password"]{width:100%;padding:8px 12px;border:1px solid #ddd;border-radius:4px;font-size:0.95rem}
+input:focus{outline:none;border-color:#0b79d0;box-shadow:0 0 5px rgba(11,121,208,0.3)}
+.error-text{color:#dc3545;font-size:0.9rem;margin-top:3px}
+.submit-btn{background:#28a745;color:#fff;padding:10px 20px;border:none;border-radius:4px;cursor:pointer;font-size:1rem;transition:background 0.3s;width:100%}
+.submit-btn:hover{background:#218838}
+#formMessage{margin-top:15px;padding:10px;border-radius:4px;text-align:center;font-weight:bold}
+
+/* Calculator */
+.calc-container{max-width:300px;background:#333;padding:15px;border-radius:8px;margin:0 auto}
+#calcDisplay{width:100%;padding:10px;font-size:1.5rem;border:2px solid #0b79d0;border-radius:4px;background:#444;color:#fff;text-align:right;margin-bottom:10px}
+.calc-buttons{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:10px}
+.calc-btn{padding:15px;font-size:1.1rem;border:none;border-radius:4px;cursor:pointer;transition:background 0.2s;font-weight:bold}
+.calc-btn.num{background:#555;color:#fff}
+.calc-btn.num:hover{background:#666}
+.calc-btn.op{background:#0b79d0;color:#fff}
+.calc-btn.op:hover{background:#0956a0}
+.calc-btn.clear{background:#dc3545;color:#fff;grid-column:span 2}
+.calc-btn.clear:hover{background:#c82333}
+.calc-btn.delete{background:#ffc107;color:#333;grid-column:span 2}
+.calc-btn.delete:hover{background:#ffb700}
+#calcResult{background:#ffc107;color:#333;padding:10px;border-radius:4px;text-align:center;font-weight:bold}
